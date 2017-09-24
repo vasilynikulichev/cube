@@ -2,10 +2,11 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 10px;
+	color: #fff;
 	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/blackorchid.png);
 }
 .cube_wrapper {
-	margin: 100px auto;
+	margin: 150px auto;
 	-webkit-perspective: 500px;
 	        perspective: 500px;
 	font-size: 5rem;
@@ -27,41 +28,36 @@ body {
 	width: inherit;
 	height: inherit;
 	background-color: #ccc;
+	border-radius: 5px;
+	border: 5px solid #fff;
+	line-height: 500px;
+	text-align: center;
 	-webkit-transform-origin: 50% 50% -250px;
 	    -ms-transform-origin: 50% 50% -250px;
 	        transform-origin: 50% 50% -250px;
 	-webkit-backface-visibility: hidden;
 	        backface-visibility: hidden;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	        box-sizing: border-box;
 
 }
-.side1 {
-	background-image: url(../images/ruslan.png);
-}
+.side1 {}
 .side2 {
-	background-image: url(../images/jene.png);
 	-webkit-transform: rotateY(90deg);
 	        transform: rotateY(90deg);
 }
 .side3 {
-	background-image: url(../images/artur.png);
 	-webkit-transform: rotateY(-90deg);
 	        transform: rotateY(-90deg);
 }
 .side4 {
-	background-image: url(../images/nikita.png);
 	-webkit-transform: rotateX(90deg);
 	        transform: rotateX(90deg);
 }
 .side5 {
-	background-image: url(../images/anton.png);
 	-webkit-transform: rotateX(-90deg);
 	        transform: rotateX(-90deg);
 }
 .side6 {
-	background-image: url(../images/kostia.png);
 	-webkit-transform: rotateY(180deg);
 	        transform: rotateY(180deg);
 }
